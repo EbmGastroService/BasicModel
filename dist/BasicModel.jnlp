@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="BasicModel.jnlp">
+  <information>
+    <title>BasicModel</title>
+    <vendor>EbmGastroService</vendor>
+    <description>Animation - Pallinoos Automat Erstellt 2017 vom El Bakry Mourad</description>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="BasicModel.jar" size="4080905" download="eager" />
+  </resources>
+<security>
+  <all-permissions/>
+</security>
+  <applet-desc  width="1200" height="640" main-class="com.javafx.main.NoJavaFXFallback"  name="BasicModel" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="1200" height="640" main-class="basicmodel.Startme"  name="BasicModel" />
+  <update check="always"/>
+</jnlp>
