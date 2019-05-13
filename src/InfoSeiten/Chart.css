@@ -1,0 +1,91 @@
+/* 
+    Created on : 27.07.2017, 13:29:10
+    Author     : EbmGastroService
+*/
+
+.chart {
+    -fx-padding: 5px;
+    -fx-background-color: transparent;
+    -fx-legend-visible: true;
+}
+
+.chart-content {
+    -fx-padding: 10px;    
+}
+
+.chart-title {
+    -fx-text-fill: #fffddd;
+    -fx-font-size: 1.3em;
+}
+.chart-legend {
+    -fx-background-color:  transparent;
+    -fx-padding: 5px;   
+}
+
+.chart-legend-item-symbol{
+    -fx-background-radius: 5px;
+} 
+.chart-legend-item{
+    -fx-text-fill: #fffddd;
+}
+.axis-label {
+    -fx-text-fill: #fffddd;
+    -fx-font-size: 1.0em;
+    -fx-border-color:null;
+    -fx-border-radius:0;
+    -fx-border-insets:0;
+    -fx-padding:0;   
+}
+
+.chart-plot-background {
+    -fx-background-color:transparent;
+}
+
+.chart-vertical-grid-lines {
+    -fx-stroke: whitesmoke;
+}
+
+.chart-horizontal-grid-lines {
+    -fx-stroke: whitesmoke;
+}
+
+.chart-alternative-row-fill {
+    -fx-fill:transparent;
+    -fx-stroke: transparent;
+}
+
+.default-color0.chart-series-line {
+    -fx-stroke: firebrick;
+}
+.default-color1.chart-series-line {
+    -fx-stroke: #0000ff;
+}
+
+.default-color1.chart-line-symbol {
+    -fx-background-color: #0000ff, white;
+}
+.default-color0.chart-line-symbol {
+    -fx-background-color: firebrick, white;
+}
+/**********TreeTableView*********/
+.tree-table-row-cell {
+    -fx-background-color: -fx-table-cell-border-color, -fx-control-inner-background;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+    -fx-text-fill: -fx-text-inner-color;
+}
+.tree-table-row-cell:selected {
+    -fx-background-color: -fx-focus-color, -fx-cell-focus-inner-border, -fx-focus-color;
+    -fx-background-insets: 0, 1, 2;
+}
+
+.tree-table-row-cell:odd {
+    -fx-background-color: -fx-table-cell-border-color, derive(-fx-control-inner-background,-5%);
+    -fx-background-insets: 0, 0 0 1 0;
+}
+
+.tree-table-row-cell:selected:odd {
+    -fx-background-color: -fx-focus-color, -fx-cell-focus-inner-border, -fx-focus-color;
+    -fx-background-insets: 0, 1, 2;
+}
+/*************/

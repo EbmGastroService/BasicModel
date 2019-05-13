@@ -1,0 +1,199 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23.11.2016, 16:37:37
+    Author     : EbmGastroService
+*/
+/* 
+    Created on : 16.02.2015, 15:42:57
+    Author     : EbmGastroService
+*/
+.root {    
+    -fx-background-color:linear-gradient(black,white);
+    -fx-border-color:whitesmoke;    
+    -fx-border-radius:5;      
+    -fx-border-width:2;
+    -fx-border-insets:3;
+    -fx-padding:3;  
+    -fx-font-family: 'sans-serif';
+    -fx-font-size: 12;
+}
+.label {       
+    -fx-font-weight:bold;
+    -fx-text-fill:white;    
+    -fx-border-color:whitesmoke;
+    -fx-border-radius:5;    
+    -fx-border-insets:5;
+    -fx-padding:3 5 3 5;
+    -fx-effect:dropshadow(gaussian,rgb(0,0,0),0,0.0,0,1);    
+}
+.highlighted-cell {
+    /*-fx-text-fill: -fx-text-inner-color;*/
+    -fx-alignment:baseline-right;
+    /*-fx-background-color: firebrick, gainsboro;
+    -fx-background-insets: 0, 2 0 0 0;*/
+}
+.highlighted-cell-font {
+    /*-fx-text-fill: -fx-text-inner-color;*/
+    -fx-text-fill:green;
+    -fx-alignment:baseline-right;
+    /*-fx-background-color: firebrick, gainsboro;
+    -fx-background-insets: 0, 2 0 0 0;*/
+}
+.tooltip {  
+    -fx-font-size:small;    
+    -fx-text-fill:gray;    
+    -fx-background-color:#fffddd;      
+}
+
+.button {
+    -fx-text-fill:whitesmoke;    
+    -fx-font-size:12px;
+    -fx-font-weight:bold;
+    -fx-background-color:linear-gradient(yellow,black,yellow);
+    -fx-effect:innershadow(gaussian,white,10,0.0,0,1);
+}
+.button:hover {
+    -fx-text-fill:firebrick;
+    -fx-background-color:linear-gradient(black,yellow);
+}
+#AniAction {
+    -fx-text-fill:whitesmoke;            
+    -fx-font-size:12px;
+    -fx-font-weight:bold;
+    -fx-background-color:linear-gradient(green,yellow);
+    -fx-effect:innershadow(gaussian,white,10,0.0,0,1);
+}
+.tab {    
+    -fx-spacing:10;
+    -fx-font-size:14px;        
+    -fx-padding:6;    
+    -fx-background-color:linear-gradient(to bottom,black,orange,white,green);
+    -fx-effect:innershadow(gaussian,white,2, 0.0,0,1);
+}
+.tab:hover {    
+    -fx-background-color:linear-gradient(to top,black,white,red);
+}
+#AniAction:hover {
+    -fx-text-fill:firebrick;
+    -fx-background-color:linear-gradient(black,yellow);
+}
+#AniAction:enabled{
+    -fx-background-color:linear-gradient(black,red,black);
+}
+#AniAction:focused{
+    -fx-background-color:linear-gradient(black,blue,white);
+}
+#AniAction:selected{
+    -fx-background-color:linear-gradient(black,red,white);
+}
+#display{    
+    -fx-background-color:linear-gradient(to bottom,grey 2%,white 3%,dimgrey 5%,darkgrey 13%,lightgrey 73%,grey);    
+    -fx-font-size:11px;  
+    -fx-font-weight:normal;    
+    -fx-text-fill:white;
+    -fx-border-color:blanchedalmond;   
+    -fx-border-insets:5;
+    -fx-border-width:1;
+    -fx-padding:3 3 3 3;    
+}
+#display1{    
+    -fx-background-color:linear-gradient(#ccb360, #fffddd);
+    -fx-effect:dropshadow(three-pass-box,rgba(0,0,0,0.6),5,0.0,0,1);
+    -fx-text-fill:#333333;    
+    -fx-font-size:11px;            
+    -fx-font-weight:normal;
+    -fx-border-color:blanchedalmond;   
+    -fx-border-insets:5;
+    -fx-border-width:1;
+    -fx-padding:3 3 3 3;    
+}
+#auswertung{
+    -fx-font-size:12px;
+    -fx-text-fill:white;
+    -fx-font-weight:normal;
+    -fx-padding:3 3 3 3;
+    -fx-background-color:linear-gradient(to bottom,white 2%,dimgrey 5%,darkgrey 10%,dimgrey 75%,lightgrey);
+}
+#labs{
+    -fx-text-fill:#333333;    
+    -fx-border-color:whitesmoke; 
+    -fx-border-radius:5;
+    -fx-padding:20;    
+    -fx-background-color:linear-gradient(#ccb360, #fffddd);
+    -fx-effect:dropshadow(three-pass-box,rgba(0,0,0,0.6),5,0.0,0,1);
+}
+
+#hbox1 {
+    -fx-background-color:linear-gradient(to bottom,white 2%,dimgrey 5%,darkgrey 10%,lightgrey 85%,grey);    
+    -fx-border-color:blanchedalmond;   
+    -fx-border-insets:2;
+    -fx-border-width:1;
+    -fx-padding:3 6 3 6;
+    -fx-effect:dropshadow(gaussian,black,2,0.1,0,1);    
+}
+#hbox {
+    -fx-border-width:2;
+    -fx-border-color:whitesmoke;
+    -fx-border-radius:4;    
+}
+#vbox{
+    -fx-border-width:2;
+    -fx-border-color:whitesmoke;
+    -fx-border-radius:4;    
+    -fx-padding:3 3 3 3;
+}
+
+#infoText{
+    -fx-font-family:'Arial Narrow'; 
+    -fx-fill:whitesmoke;
+    -fx-font-size: 12px;
+    -fx-font-weight:normal;
+    -fx-effect:innershadow(gaussian,white,5,0.2,0,1);              
+}
+#tableNumber{    
+    -fx-text-fill:red;
+    -fx-text-alignment:right;
+    -fx-font-size: 12px;
+    -fx-font-weight:normal;        
+}
+#ballText{    
+    -fx-font-family:'Arial Narrow'; 
+    -fx-fill:white;
+    -fx-font-size:12px;
+    -fx-font-weight:bold;               
+}
+#Sortenmengevoll{
+    -fx-font-size:13px;
+    -fx-text-fill:greenyellow;
+    -fx-padding:0 0 0 0;    
+}
+#Sortenmengeleer{
+    -fx-font-size:13;
+    -fx-text-fill:red;
+    -fx-padding:0 0 0 0;    
+}
+#Freilauf_red{    
+    -fx-background-color:radial-gradient(focus-angle 45deg,focus-distance 5%,center 85% 15%,radius 75%,reflect,yellow,red 70%,rosybrown);
+    -fx-font-size:12px;
+    -fx-text-fill:brown;
+    -fx-border-width:0;
+}
+#Freilauf_green{    
+    -fx-background-color:radial-gradient(focus-angle 45deg,focus-distance 5%,center 70% 30%, radius 90%,reflect,yellow,green 65%,greenyellow);
+    -fx-font-size:12px;
+    -fx-text-fill:white;
+    -fx-border-width:2;
+    -fx-border-color:green;
+}
+#Freilauf_yellow{    
+    -fx-background-color:radial-gradient(focus-angle 45deg,focus-distance 5%,center 50% 50%,radius 50%,reflect,white,yellow 75%,gold);
+    -fx-text-fill:black;
+}
+#Freilauf_brown{    
+    -fx-background-color:radial-gradient(focus-angle 45deg,focus-distance 5%,center 50% 50%,radius 50%,reflect,white,brown 75%,gold);
+    -fx-text-fill:black;
+}
